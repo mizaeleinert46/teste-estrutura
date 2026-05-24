@@ -1,0 +1,1418 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Método Corte Guiado 3P - Moldes de Uniformes</title>
+  <meta name="description" content="Pacote digital com mais de 200 moldes de uniformes de estética e saúde com guias de corte e alinhamento.">
+  <script>
+    window.pixelId = "6a11ec26ae9faa2609afadfd";
+    var a = document.createElement("script");
+    a.setAttribute("async", "");
+    a.setAttribute("defer", "");
+    a.setAttribute("src", "https://cdn.utmify.com.br/scripts/pixel/pixel.js");
+    document.head.appendChild(a);
+  </script>
+  <script
+    src="https://cdn.utmify.com.br/scripts/utms/latest.js"
+    data-utmify-prevent-xcod-sck
+    data-utmify-prevent-subids
+    async
+    defer
+  ></script>
+  <style>
+    :root {
+      --brown: #3f2425;
+      --brown-2: #281414;
+      --cream: #f4e6df;
+      --paper: #fbf3ee;
+      --paper-2: #fffaf7;
+      --rose: #c77fa2;
+      --lime: #efd0df;
+      --coral: #ad6688;
+      --green: #9daa91;
+      --blue: #8aa5b6;
+      --sand: #d8bfa8;
+      --ink: #332020;
+      --muted: #745d59;
+      --line: rgba(63, 36, 37, 0.14);
+      --shadow: 0 22px 55px rgba(40, 20, 20, 0.14);
+      --radius: 8px;
+      --wrap: 1120px;
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    html {
+      scroll-behavior: smooth;
+    }
+
+    body {
+      margin: 0;
+      color: var(--ink);
+      font-family: Inter, Poppins, Arial, sans-serif;
+      background: var(--paper);
+      line-height: 1.55;
+    }
+
+    img {
+      display: block;
+      max-width: 100%;
+      height: auto;
+    }
+
+    figure {
+      margin: 0;
+    }
+
+    a {
+      color: inherit;
+    }
+
+    .hero {
+      position: relative;
+      min-height: 0;
+      isolation: isolate;
+      overflow: hidden;
+      color: #fff;
+      text-align: center;
+      background: var(--brown);
+    }
+
+    .hero::after {
+      content: none;
+    }
+
+    .wrap {
+      width: min(var(--wrap), calc(100% - 32px));
+      margin: 0 auto;
+    }
+
+    .hero-inner {
+      width: min(520px, calc(100% - 32px));
+      min-height: 0;
+      margin: 0 auto;
+      display: block;
+      padding: 1.55rem 0 1.5rem;
+    }
+
+    .hero-copy {
+      max-width: 520px;
+      margin: 0 auto;
+    }
+
+    .eyebrow {
+      display: inline-flex;
+      align-items: center;
+      gap: 0.5rem;
+      color: var(--brown-2);
+      background: var(--lime);
+      border-radius: 999px;
+      padding: 0.3rem 0.65rem;
+      font-size: 0.68rem;
+      font-weight: 900;
+      text-transform: uppercase;
+      letter-spacing: 0;
+    }
+
+    h1,
+    h2,
+    h3,
+    p {
+      margin: 0;
+    }
+
+    h1 {
+      margin-top: 0.55rem;
+      font-size: 2.05rem;
+      line-height: 1.05;
+      letter-spacing: 0;
+      font-weight: 900;
+      max-width: none;
+    }
+
+    .hero-subtitle {
+      margin-top: 0.4rem;
+      color: rgba(255, 255, 255, 0.82);
+      font-size: 0.78rem;
+      font-weight: 800;
+    }
+
+    .hero-mockup {
+      width: min(360px, 92%);
+      margin: 1rem auto 0;
+      border-radius: var(--radius);
+      background: var(--paper-2);
+      box-shadow: 0 22px 55px rgba(21, 8, 9, 0.34);
+    }
+
+    .hero-lead {
+      margin: 0.9rem auto 0;
+      max-width: 430px;
+      font-size: 0.92rem;
+      color: rgba(255, 255, 255, 0.9);
+    }
+
+    .hero-lead strong {
+      color: #fff;
+      font-weight: 900;
+    }
+
+    .hero-list {
+      display: grid;
+      gap: 0.32rem;
+      margin: 0.85rem auto 0;
+      padding: 0;
+      list-style: none;
+      max-width: 360px;
+      text-align: left;
+    }
+
+    .hero-list li,
+    .checkline {
+      display: grid;
+      grid-template-columns: 1rem 1fr;
+      gap: 0.45rem;
+      align-items: start;
+      font-size: 0.78rem;
+    }
+
+    .check {
+      display: inline-grid;
+      width: 0.88rem;
+      height: 0.88rem;
+      place-items: center;
+      border-radius: 999px;
+      background: var(--coral);
+      color: #fff;
+      font-size: 0.62rem;
+      font-weight: 900;
+      line-height: 1;
+      flex: 0 0 auto;
+      margin-top: 0.18rem;
+    }
+
+    .actions {
+      display: flex;
+      align-items: center;
+      gap: 1rem;
+      flex-wrap: wrap;
+      margin-top: 1.8rem;
+    }
+
+    .hero .actions {
+      flex-direction: column;
+      justify-content: center;
+      gap: 0.5rem;
+      margin-top: 0.95rem;
+    }
+
+    .hero .btn {
+      min-height: 2.75rem;
+      padding: 0.78rem 1.3rem;
+      font-size: 0.82rem;
+    }
+
+    .btn {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      gap: 0.62rem;
+      min-height: 3.35rem;
+      padding: 0.92rem 1.35rem;
+      border: 0;
+      border-radius: var(--radius);
+      background: var(--coral);
+      color: #fff;
+      box-shadow: 0 16px 38px rgba(173, 102, 136, 0.28);
+      font-size: 0.98rem;
+      font-weight: 900;
+      text-decoration: none;
+      text-align: center;
+      text-transform: uppercase;
+      letter-spacing: 0;
+      transition: transform 0.18s ease, box-shadow 0.18s ease, background 0.18s ease;
+    }
+
+    .btn:hover {
+      transform: translateY(-2px);
+      background: var(--rose);
+      box-shadow: 0 20px 44px rgba(173, 102, 136, 0.35);
+    }
+
+    .btn.dark {
+      background: var(--brown);
+      color: #fff;
+      box-shadow: 0 16px 38px rgba(63, 36, 37, 0.25);
+    }
+
+    .btn.dark:hover {
+      background: var(--brown-2);
+    }
+
+    .btn.ghost {
+      background: transparent;
+      color: #fff;
+      border: 1px solid rgba(255, 255, 255, 0.36);
+      box-shadow: none;
+    }
+
+    .hero-note {
+      color: rgba(255, 255, 255, 0.72);
+      font-size: 0.72rem;
+      max-width: 360px;
+      text-align: center;
+    }
+
+    section {
+      padding: 4.6rem 0;
+    }
+
+    .section-head {
+      max-width: 760px;
+      margin: 0 auto 2.1rem;
+      text-align: center;
+    }
+
+    .section-kicker {
+      display: inline-flex;
+      margin-bottom: 0.75rem;
+      color: var(--brown);
+      background: rgba(199, 127, 162, 0.18);
+      border: 1px solid rgba(199, 127, 162, 0.34);
+      border-radius: 999px;
+      padding: 0.36rem 0.75rem;
+      font-size: 0.8rem;
+      font-weight: 900;
+      text-transform: uppercase;
+      letter-spacing: 0;
+    }
+
+    h2 {
+      color: var(--brown);
+      font-size: 2.2rem;
+      line-height: 1.12;
+      letter-spacing: 0;
+      font-weight: 900;
+    }
+
+    .section-head p {
+      margin-top: 0.75rem;
+      color: var(--muted);
+      font-size: 1.05rem;
+    }
+
+    .cream {
+      background: var(--cream);
+    }
+
+    .white {
+      background: var(--paper-2);
+    }
+
+    .dark {
+      background: var(--brown);
+      color: #fff;
+    }
+
+    .dark h2,
+    .dark h3 {
+      color: #fff;
+    }
+
+    .dark .section-kicker {
+      background: rgba(239, 208, 223, 0.14);
+      border-color: rgba(239, 208, 223, 0.38);
+      color: var(--lime);
+    }
+
+    .dark .section-head p,
+    .dark .muted {
+      color: rgba(255, 255, 255, 0.74);
+    }
+
+    #modelos {
+      padding-top: 2rem;
+    }
+
+    #modelos .section-head {
+      margin-bottom: 0.95rem;
+    }
+
+    #modelos h2 {
+      font-size: 2rem;
+      text-transform: uppercase;
+    }
+
+    .gallery-grid {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 1rem;
+      margin-top: 0.35rem;
+    }
+
+    .gallery-item {
+      overflow: hidden;
+      border-radius: var(--radius);
+      background: var(--paper-2);
+      box-shadow: none;
+      aspect-ratio: 4 / 5;
+    }
+
+    .gallery-item.wide {
+      width: min(360px, 100%);
+      margin: 0 auto 1rem;
+      aspect-ratio: 1 / 1;
+      grid-column: 1 / -1;
+    }
+
+    .gallery-item img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      transition: transform 0.28s ease;
+    }
+
+    .gallery-item:hover img {
+      transform: scale(1.04);
+    }
+
+    .feature-grid,
+    .audience-grid,
+    .bonus-grid,
+    .testimonial-grid,
+    .plan-grid {
+      display: grid;
+      gap: 1rem;
+    }
+
+    .audience-grid {
+      grid-template-columns: repeat(3, 1fr);
+    }
+
+    .feature-grid {
+      grid-template-columns: repeat(4, 1fr);
+    }
+
+    .bonus-grid {
+      grid-template-columns: repeat(4, 1fr);
+    }
+
+    .testimonial-grid {
+      grid-template-columns: repeat(4, 1fr);
+    }
+
+    .plan-grid {
+      grid-template-columns: minmax(0, 0.9fr) minmax(0, 1.1fr);
+      align-items: stretch;
+    }
+
+    .card {
+      border: 1px solid var(--line);
+      border-radius: var(--radius);
+      background: var(--paper-2);
+      box-shadow: 0 14px 34px rgba(63, 36, 37, 0.08);
+      overflow: hidden;
+    }
+
+    .audience-card {
+      padding: 1.15rem;
+      text-align: center;
+    }
+
+    .audience-card img {
+      width: 54px;
+      height: 54px;
+      object-fit: contain;
+      margin: 0 auto 0.8rem;
+    }
+
+    .audience-card p,
+    .feature-card p,
+    .bonus-card p,
+    .testimonial-card p {
+      color: var(--muted);
+      font-size: 0.95rem;
+    }
+
+    .feature-card {
+      padding: 1.15rem;
+      text-align: center;
+    }
+
+    .feature-icon {
+      display: inline-grid;
+      width: 3rem;
+      height: 3rem;
+      margin-bottom: 0.85rem;
+      place-items: center;
+      border-radius: 999px;
+      background: var(--lime);
+      color: var(--brown);
+      font-size: 1.35rem;
+      font-weight: 900;
+    }
+
+    .feature-card h3,
+    .bonus-card h3,
+    .plan h3 {
+      color: var(--brown);
+      font-size: 1.05rem;
+      line-height: 1.2;
+      letter-spacing: 0;
+      margin: 0 0 0.45rem;
+    }
+
+    .method-showcase {
+      display: grid;
+      grid-template-columns: 0.95fr 1.05fr;
+      gap: 2rem;
+      align-items: center;
+      margin-top: 2rem;
+    }
+
+    .method-images {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 0.75rem;
+      align-items: end;
+    }
+
+    .method-images img {
+      width: 100%;
+      height: 230px;
+      object-fit: cover;
+      border-radius: var(--radius);
+      box-shadow: var(--shadow);
+    }
+
+    .method-images img:nth-child(2) {
+      height: 290px;
+    }
+
+    .benefit-panel {
+      display: grid;
+      grid-template-columns: minmax(0, 1.05fr) minmax(280px, 0.95fr);
+      gap: 2rem;
+      align-items: center;
+    }
+
+    .benefit-list {
+      display: grid;
+      gap: 0.8rem;
+      margin: 1.35rem 0 0;
+      padding: 0;
+      list-style: none;
+    }
+
+    .benefit-media {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 0.75rem;
+    }
+
+    .benefit-media img {
+      width: 100%;
+      aspect-ratio: 4 / 5;
+      object-fit: cover;
+      border-radius: var(--radius);
+      box-shadow: var(--shadow);
+    }
+
+    .benefit-media img:nth-child(2) {
+      margin-top: 2rem;
+    }
+
+    .image-strip {
+      display: grid;
+      grid-template-columns: repeat(5, 1fr);
+      gap: 1rem;
+    }
+
+    .image-strip img {
+      width: 100%;
+      aspect-ratio: 4 / 5;
+      object-fit: cover;
+      border-radius: var(--radius);
+      background: var(--paper-2);
+    }
+
+    .receive {
+      display: grid;
+      grid-template-columns: minmax(260px, 0.85fr) minmax(0, 1.15fr);
+      gap: 2rem;
+      align-items: center;
+    }
+
+    .receive-media img {
+      width: min(430px, 100%);
+      margin: 0 auto;
+      border-radius: var(--radius);
+      box-shadow: 0 24px 65px rgba(0, 0, 0, 0.28);
+    }
+
+    .receive-list {
+      display: grid;
+      gap: 0.8rem;
+      margin: 1.4rem 0 0;
+      padding: 0;
+      list-style: none;
+    }
+
+    .bonus-intro {
+      margin-top: 3rem;
+      text-align: center;
+    }
+
+    .bonus-intro h2 {
+      color: #fff;
+    }
+
+    .bonus-intro p {
+      max-width: 680px;
+      margin: 0.75rem auto 0;
+      color: rgba(255, 255, 255, 0.74);
+    }
+
+    .dark .bonus-grid {
+      margin-top: 1.5rem;
+    }
+
+    .dark .bonus-card {
+      background: var(--paper-2);
+    }
+
+    .bonus-card img {
+      width: 100%;
+      aspect-ratio: 1 / 1;
+      object-fit: cover;
+      background: var(--cream);
+    }
+
+    .bonus-card .card-body {
+      padding: 1rem;
+    }
+
+    .free-tag {
+      display: inline-flex;
+      margin-bottom: 0.65rem;
+      padding: 0.28rem 0.55rem;
+      border-radius: 999px;
+      color: var(--brown);
+      background: var(--sand);
+      font-size: 0.72rem;
+      font-weight: 900;
+      text-transform: uppercase;
+    }
+
+    .cta-band {
+      background: var(--rose);
+      color: var(--brown-2);
+      text-align: center;
+      padding: 3.4rem 0;
+    }
+
+    .cta-band h2 {
+      color: var(--brown-2);
+      max-width: 760px;
+      margin: 0 auto;
+    }
+
+    .cta-band p {
+      margin: 0.8rem auto 0;
+      max-width: 620px;
+      color: rgba(40, 20, 20, 0.82);
+      font-size: 1.06rem;
+    }
+
+    .cta-band .actions {
+      justify-content: center;
+    }
+
+    .testimonial-card {
+      padding: 1.1rem;
+    }
+
+    .testimonial-card img {
+      width: 56px;
+      height: 56px;
+      object-fit: cover;
+      border-radius: 999px;
+      margin-bottom: 0.8rem;
+    }
+
+    .testimonial-card blockquote {
+      margin: 0;
+      color: var(--ink);
+      font-size: 0.94rem;
+    }
+
+    .testimonial-card cite {
+      display: block;
+      margin-top: 0.9rem;
+      color: var(--brown);
+      font-style: normal;
+      font-weight: 900;
+      line-height: 1.25;
+    }
+
+    .testimonial-card span {
+      display: block;
+      margin-top: 0.18rem;
+      color: var(--muted);
+      font-size: 0.86rem;
+      font-weight: 600;
+    }
+
+    .offer {
+      background: linear-gradient(180deg, var(--paper-2), var(--cream));
+    }
+
+    .plan {
+      position: relative;
+      display: flex;
+      flex-direction: column;
+      padding: 1.3rem;
+    }
+
+    .plan.featured {
+      border: 2px solid var(--brown);
+      box-shadow: 0 24px 60px rgba(63, 36, 37, 0.18);
+    }
+
+    .badge {
+      align-self: flex-start;
+      margin-bottom: 0.8rem;
+      border-radius: 999px;
+      background: var(--brown);
+      color: #fff;
+      padding: 0.35rem 0.7rem;
+      font-size: 0.74rem;
+      font-weight: 900;
+      text-transform: uppercase;
+    }
+
+    .plan.featured .badge {
+      background: var(--green);
+      color: var(--brown);
+    }
+
+    .plan img.product {
+      width: min(230px, 100%);
+      margin: 0.35rem auto 1rem;
+      border-radius: var(--radius);
+    }
+
+    .plan-list {
+      display: grid;
+      gap: 0.62rem;
+      margin: 1rem 0;
+      padding: 0;
+      list-style: none;
+    }
+
+    .plan-list li {
+      display: grid;
+      grid-template-columns: 1.25rem 1fr;
+      gap: 0.55rem;
+      color: var(--muted);
+      font-size: 0.94rem;
+    }
+
+    .price-old {
+      color: var(--muted);
+      font-size: 0.92rem;
+      text-decoration: line-through;
+    }
+
+    .price {
+      color: var(--brown);
+      font-size: 3rem;
+      line-height: 1;
+      font-weight: 900;
+      margin: 0.2rem 0;
+    }
+
+    .installments {
+      color: var(--muted);
+      font-size: 0.94rem;
+      margin-bottom: 1rem;
+    }
+
+    .plan .btn {
+      width: 100%;
+      margin-top: auto;
+    }
+
+    .payments {
+      margin: 1.2rem auto 0;
+      width: min(440px, 100%);
+      opacity: 0.95;
+    }
+
+    .guarantee {
+      display: grid;
+      grid-template-columns: minmax(0, 0.8fr) minmax(0, 1.2fr);
+      gap: 2rem;
+      align-items: center;
+    }
+
+    .guarantee img {
+      width: min(260px, 100%);
+      margin: 0 auto;
+    }
+
+    .guarantee h2 {
+      text-align: left;
+    }
+
+    .guarantee p {
+      margin-top: 0.85rem;
+      color: var(--muted);
+      font-size: 1.05rem;
+    }
+
+    .faq-list {
+      max-width: 850px;
+      margin: 0 auto;
+      display: grid;
+      gap: 0.8rem;
+    }
+
+    details {
+      border: 1px solid var(--line);
+      border-radius: var(--radius);
+      background: var(--paper-2);
+      box-shadow: 0 12px 26px rgba(63, 36, 37, 0.07);
+      overflow: hidden;
+    }
+
+    summary {
+      cursor: pointer;
+      padding: 1rem 1.1rem;
+      color: var(--brown);
+      font-weight: 900;
+      list-style: none;
+    }
+
+    summary::-webkit-details-marker {
+      display: none;
+    }
+
+    details p {
+      padding: 0 1.1rem 1rem;
+      color: var(--muted);
+    }
+
+    footer {
+      background: #0f0d0d;
+      color: rgba(255, 255, 255, 0.72);
+      padding: 2rem 0;
+      font-size: 0.82rem;
+      text-align: center;
+    }
+
+    footer p + p {
+      margin-top: 0.75rem;
+    }
+
+    .social-proof {
+      position: fixed;
+      left: 1rem;
+      bottom: 1rem;
+      z-index: 30;
+      display: grid;
+      grid-template-columns: 2.5rem 1fr;
+      gap: 0.75rem;
+      align-items: center;
+      width: min(360px, calc(100vw - 2rem));
+      padding: 0.85rem;
+      border: 1px solid rgba(63, 36, 37, 0.12);
+      border-radius: var(--radius);
+      background: rgba(255, 250, 247, 0.97);
+      color: var(--brown);
+      box-shadow: 0 18px 44px rgba(40, 20, 20, 0.18);
+      opacity: 0;
+      pointer-events: none;
+      transform: translateY(18px);
+      transition: opacity 0.28s ease, transform 0.28s ease;
+    }
+
+    .social-proof.is-visible {
+      opacity: 1;
+      transform: translateY(0);
+    }
+
+    .social-proof__icon {
+      display: grid;
+      width: 2.5rem;
+      height: 2.5rem;
+      place-items: center;
+      border-radius: 999px;
+      background: var(--green);
+      color: var(--brown);
+      font-weight: 900;
+    }
+
+    .social-proof strong {
+      display: block;
+      font-size: 0.9rem;
+      line-height: 1.2;
+    }
+
+    .social-proof p {
+      margin-top: 0.18rem;
+      color: var(--muted);
+      font-size: 0.8rem;
+      line-height: 1.35;
+    }
+
+    @media (max-width: 980px) {
+      .hero,
+      .hero-inner {
+        min-height: auto;
+      }
+
+      .hero {
+        background: var(--brown);
+      }
+
+      .hero-inner {
+        padding: 1.45rem 0 1.35rem;
+      }
+
+      h1 {
+        font-size: 1.95rem;
+        max-width: none;
+      }
+
+      h2 {
+        font-size: 1.85rem;
+      }
+
+      .gallery-grid {
+        grid-template-columns: repeat(2, 1fr);
+      }
+
+      .audience-grid,
+      .feature-grid {
+        grid-template-columns: repeat(2, 1fr);
+      }
+
+      .bonus-grid,
+      .testimonial-grid {
+        grid-template-columns: repeat(2, 1fr);
+      }
+
+      .method-showcase,
+      .benefit-panel,
+      .receive,
+      .guarantee,
+      .plan-grid {
+        grid-template-columns: 1fr;
+      }
+
+      .image-strip {
+        grid-template-columns: repeat(3, 1fr);
+      }
+
+      .guarantee h2 {
+        text-align: center;
+      }
+    }
+
+    @media (max-width: 640px) {
+      .wrap,
+      .hero-inner {
+        width: min(100% - 24px, var(--wrap));
+      }
+
+      .hero-inner {
+        padding-top: 1.2rem;
+        padding-bottom: 1.2rem;
+      }
+
+      h1 {
+        font-size: 1.68rem;
+      }
+
+      .hero-lead {
+        font-size: 0.86rem;
+      }
+
+      .actions,
+      .cta-band .actions {
+        align-items: stretch;
+        flex-direction: column;
+      }
+
+      .btn {
+        width: 100%;
+        min-height: 3.1rem;
+        font-size: 0.88rem;
+      }
+
+      .hero-note {
+        max-width: none;
+      }
+
+      .hero-list li,
+      .checkline {
+        font-size: 0.74rem;
+      }
+
+      section {
+        padding: 3.4rem 0;
+      }
+
+      #modelos {
+        padding-top: 1.6rem;
+      }
+
+      #modelos h2 {
+        font-size: 1.45rem;
+      }
+
+      .gallery-grid,
+      .audience-grid,
+      .feature-grid,
+      .bonus-grid,
+      .testimonial-grid,
+      .image-strip,
+      .benefit-media {
+        grid-template-columns: 1fr;
+      }
+
+      .gallery-item,
+      .gallery-item.wide {
+        aspect-ratio: 4 / 3;
+      }
+
+      .benefit-media img:nth-child(2) {
+        margin-top: 0;
+      }
+
+      .method-images {
+        grid-template-columns: 1fr;
+      }
+
+      .method-images img,
+      .method-images img:nth-child(2) {
+        height: auto;
+        aspect-ratio: 4 / 3;
+      }
+
+      .price {
+        font-size: 2.55rem;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header class="hero">
+    <div class="hero-inner">
+      <div class="hero-copy">
+        <span class="eyebrow">Método Corte Guiado 3P</span>
+        <h1>Moldes de uniformes prontos para costurar e vender</h1>
+        <p class="hero-subtitle">sem modelagem do zero, sem desperdício e com acesso imediato</p>
+        <img class="hero-mockup" src="https://blogdaeducacao.com/wp-content/uploads/2025/10/Sem-nome-2000-x-2000-px-4000-x-4000-px-Site-1-1.png" alt="Mockup do pacote Método Corte Guiado 3P">
+        <p class="hero-lead">
+          Pare de perder tempo tentando ajustar molde na tentativa. Receba <strong>+ de 200 moldes de uniformes de estética e saúde</strong> com guias de corte e alinhamento para imprimir, cortar e costurar com mais segurança desde a primeira peça.
+        </p>
+        <ul class="hero-list" aria-label="Principais beneficios">
+          <li><span class="check">✓</span><span>Moldes do PP ao G5 para jalecos, aventais, toucas e uniformes profissionais.</span></li>
+          <li><span class="check">✓</span><span>Marcações do Sistema 3P para saber onde posicionar, prender e passar.</span></li>
+          <li><span class="check">✓</span><span>Menos tecido perdido, menos retrabalho e mais previsibilidade no acabamento.</span></li>
+          <li><span class="check">✓</span><span>Entrega digital imediata para você baixar e começar ainda hoje.</span></li>
+        </ul>
+        <div class="actions">
+          <a class="btn" href="#oferta" aria-label="Ir para a oferta">Quero meus moldes por R$29,90 <span aria-hidden="true">&rarr;</span></a>
+          <p class="hero-note">Receba por e-mail, teste sem risco por 14 dias e fique com acesso vitalício.</p>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <section id="modelos" class="cream">
+      <div class="wrap">
+        <div class="section-head">
+          <h2>Veja o tipo de uniforme que você pode costurar e vender.</h2>
+        </div>
+        <div class="gallery-grid">
+          <figure class="gallery-item wide"><img src="https://blogdaeducacao.com/wp-content/uploads/2026/05/uniform-white-1.jpg" alt="Uniforme branco costurado com molde 3P"></figure>
+          <figure class="gallery-item"><img src="https://blogdaeducacao.com/wp-content/uploads/2026/05/uniform-blue-1-1.jpg" alt="Uniforme azul costurado com molde 3P"></figure>
+          <figure class="gallery-item"><img src="https://blogdaeducacao.com/wp-content/uploads/2026/05/uniform-beige-1.jpg" alt="Uniforme bege costurado com molde 3P"></figure>
+          <figure class="gallery-item"><img src="https://blogdaeducacao.com/wp-content/uploads/2026/05/uniform-green-1.jpg" alt="Uniforme verde costurado com molde 3P"></figure>
+          <figure class="gallery-item"><img src="https://blogdaeducacao.com/wp-content/uploads/2026/05/uniform-pink-1.jpg" alt="Uniforme rosa costurado com molde 3P"></figure>
+          <figure class="gallery-item"><img src="https://blogdaeducacao.com/wp-content/uploads/2026/05/uniform-navy-1.jpg" alt="Uniforme azul marinho costurado com molde 3P"></figure>
+          <figure class="gallery-item"><img src="https://blogdaeducacao.com/wp-content/uploads/2025/10/Captura-de-tela-2025-10-18-152811.png" alt="Tela de molde digital do Método 3P"></figure>
+        </div>
+      </div>
+    </section>
+
+    <section class="white">
+      <div class="wrap">
+        <div class="section-head">
+          <span class="section-kicker">O pacote possui</span>
+          <h2>Os moldes do Método Corte Guiado 3P foram pensados para facilitar sua produção</h2>
+        </div>
+        <div class="feature-grid">
+          <article class="card feature-card">
+            <span class="feature-icon">1</span>
+            <h3>Moldes prontos em PDF</h3>
+            <p>Arquivos organizados para imprimir e começar sem modelar do zero.</p>
+          </article>
+          <article class="card feature-card">
+            <span class="feature-icon">2</span>
+            <h3>Tamanhos do PP ao G5</h3>
+            <p>Uma base ampla para atender diferentes corpos e encomendas.</p>
+          </article>
+          <article class="card feature-card">
+            <span class="feature-icon">3</span>
+            <h3>Guias de corte 3P</h3>
+            <p>Marcações para posicionar, prender e passar com mais segurança.</p>
+          </article>
+          <article class="card feature-card">
+            <span class="feature-icon">4</span>
+            <h3>Arquivos organizados</h3>
+            <p>Escolha o modelo, imprima e siga o passo a passo com clareza.</p>
+          </article>
+        </div>
+        <div class="actions" style="justify-content:center">
+          <a class="btn dark" href="#oferta">Quero meus moldes agora</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="cream">
+      <div class="wrap benefit-panel">
+        <div>
+          <span class="section-kicker">Resultado prático</span>
+          <h2>Produza mais, erre menos e tenha uniformes prontos para vender</h2>
+          <ul class="benefit-list">
+            <li class="checkline"><span class="check">✓</span><span>Você para de perder horas ajustando molde na tentativa.</span></li>
+            <li class="checkline"><span class="check">✓</span><span>Reduz desperdício de tecido e retrabalho no corte.</span></li>
+            <li class="checkline"><span class="check">✓</span><span>Ganha mais segurança para aceitar encomendas.</span></li>
+            <li class="checkline"><span class="check">✓</span><span>Consegue cobrar melhor por peças com acabamento mais padronizado.</span></li>
+            <li class="checkline"><span class="check">✓</span><span>Pode recuperar o investimento com uma única venda.</span></li>
+          </ul>
+          <div class="actions">
+            <a class="btn dark" href="#oferta">Quero acessar e usar hoje</a>
+          </div>
+        </div>
+        <div class="benefit-media">
+          <img src="https://blogdaeducacao.com/wp-content/uploads/2026/05/uniform-pink-1.jpg" alt="Uniforme rosa costurado com molde 3P">
+          <img src="https://blogdaeducacao.com/wp-content/uploads/2026/05/uniform-navy-1.jpg" alt="Uniforme azul marinho costurado com molde 3P">
+        </div>
+      </div>
+    </section>
+
+    <section class="cream">
+      <div class="wrap image-strip">
+        <img src="https://blogdaeducacao.com/wp-content/uploads/2025/10/Captura-de-tela-2025-10-18-153403.png" alt="Exemplo de molde do método 3P">
+        <img src="https://blogdaeducacao.com/wp-content/uploads/2025/10/Captura-de-tela-2025-10-18-153443.png" alt="Guia de corte do método 3P">
+        <img src="https://blogdaeducacao.com/wp-content/uploads/2025/10/Captura-de-tela-2025-10-18-153459.png" alt="Molde com marcações do método 3P">
+        <img src="https://blogdaeducacao.com/wp-content/uploads/2026/05/uniform-green-1.jpg" alt="Uniforme verde feito com molde 3P">
+        <img src="https://blogdaeducacao.com/wp-content/uploads/2026/05/uniform-blue-1-1.jpg" alt="Uniforme azul feito com molde 3P">
+      </div>
+    </section>
+
+    <section class="cta-band">
+      <div class="wrap">
+        <h2>Quantas peças você deixa de vender por não ter moldes prontos e confiáveis?</h2>
+        <p>A oferta é por tempo limitado. Você recebe o material agora, começa no seu ritmo e ainda testa por 14 dias sem risco.</p>
+        <div class="actions">
+          <a class="btn" href="#oferta">Quero aproveitar a oferta</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="white">
+      <div class="wrap">
+        <div class="section-head">
+          <span class="section-kicker">Ideal para você</span>
+          <h2>Este pacote é para costureiras que querem transformar molde em produção real</h2>
+        </div>
+        <div class="audience-grid">
+          <article class="card audience-card">
+            <img src="https://blogdaeducacao.com/wp-content/uploads/2025/10/ICONE.png" alt="">
+            <p>Costurar peças com aparência profissional mesmo sem dominar modelagem.</p>
+          </article>
+          <article class="card audience-card">
+            <img src="https://blogdaeducacao.com/wp-content/uploads/2025/10/ICONE-1.png" alt="">
+            <p>Ganhar agilidade e precisão na hora de cortar e montar cada peça.</p>
+          </article>
+          <article class="card audience-card">
+            <img src="https://blogdaeducacao.com/wp-content/uploads/2025/10/ICONE-2.png" alt="">
+            <p>Parar de improvisar molde e trabalhar com arquivos prontos e organizados.</p>
+          </article>
+          <article class="card audience-card">
+            <img src="https://blogdaeducacao.com/wp-content/uploads/2025/10/ICONE-3.png" alt="">
+            <p>Trabalhar de casa, no seu tempo, com um material de baixo investimento.</p>
+          </article>
+          <article class="card audience-card">
+            <img src="https://blogdaeducacao.com/wp-content/uploads/2025/10/ICONE-4.png" alt="">
+            <p>Vender uniformes com mais confiança, sem depender de tentativa e erro.</p>
+          </article>
+          <article class="card audience-card">
+            <img src="https://blogdaeducacao.com/wp-content/uploads/2025/10/ICONE-2.png" alt="">
+            <p>Montar um catálogo de uniformes de estética e saúde com rapidez.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="dark">
+      <div class="wrap">
+        <div class="receive">
+          <div class="receive-media">
+            <img src="https://blogdaeducacao.com/wp-content/uploads/2025/10/ACESSO-IMEDIATO-1.png" alt="Pacote digital com acesso imediato">
+          </div>
+          <div>
+            <span class="section-kicker">Tudo o que você vai receber</span>
+            <h2>Pacote Digital com + de 200 Moldes de Estética e Saúde</h2>
+            <ul class="receive-list">
+              <li class="checkline"><span class="check">✓</span><span>200 moldes do PP ao G5.</span></li>
+              <li class="checkline"><span class="check">✓</span><span>Sistema 3P com marcações de alinhamento.</span></li>
+              <li class="checkline"><span class="check">✓</span><span>Guia ilustrado de montagem.</span></li>
+              <li class="checkline"><span class="check">✓</span><span>Impressão em A4 ou plotter de 84 cm.</span></li>
+              <li class="checkline"><span class="check">✓</span><span>Acesso digital imediato para baixar e começar hoje.</span></li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="bonus-intro">
+          <span class="section-kicker">E não para por aí</span>
+          <h2>Você também vai receber 8 bônus exclusivos</h2>
+          <p>Materiais extras para imprimir certo, montar melhor, precificar com mais segurança e ampliar seu catálogo.</p>
+        </div>
+        <div class="bonus-grid">
+          <article class="card bonus-card">
+            <img src="https://blogdaeducacao.com/wp-content/uploads/2025/10/Sem-nome-2000-x-2000-px-4000-x-4000-px-1200-x-1200-px-2-1.png" alt="Bônus método impressão A4 sem erro">
+            <div class="card-body"><span class="free-tag">Grátis hoje</span><h3>Método impressão A4 Sem Erro</h3><p>Aprenda como imprimir e montar seus moldes em casa, passo a passo.</p></div>
+          </article>
+          <article class="card bonus-card">
+            <img src="https://blogdaeducacao.com/wp-content/uploads/2025/10/Sem-nome-2000-x-2000-px-4000-x-4000-px-1200-x-1200-px-3-1.png" alt="Bônus guia acabamento profissional simplificado">
+            <div class="card-body"><span class="free-tag">Grátis hoje</span><h3>Guia Acabamento Profissional</h3><p>Deixe suas costuras com padrão de atelier.</p></div>
+          </article>
+          <article class="card bonus-card">
+            <img src="https://blogdaeducacao.com/wp-content/uploads/2025/10/Sem-nome-2000-x-2000-px-4000-x-4000-px-1200-x-1200-px-4-1.png" alt="Bônus como lucrar com uniformes">
+            <div class="card-body"><span class="free-tag">Grátis hoje</span><h3>Como Lucrar com Uniformes</h3><p>Descubra como transformar suas criações em renda extra.</p></div>
+          </article>
+          <article class="card bonus-card">
+            <img src="https://blogdaeducacao.com/wp-content/uploads/2025/10/Sem-nome-2000-x-2000-px-4000-x-4000-px-1200-x-1200-px-5-1.png" alt="Bônus jaleco masculino exclusivo">
+            <div class="card-body"><span class="free-tag">Grátis hoje</span><h3>Jaleco Masculino Exclusivo</h3><p>Amplie seu catálogo e conquiste novos clientes.</p></div>
+          </article>
+          <article class="card bonus-card">
+            <img src="https://blogdaeducacao.com/wp-content/uploads/2025/10/Sem-nome-2000-x-2000-px-4000-x-4000-px-1200-x-1200-px-6-1.png" alt="Bônus avental e touca profissional">
+            <div class="card-body"><span class="free-tag">Grátis hoje</span><h3>Avental + Touca Profissional</h3><p>Cinco modelos extras gratuitos, com marcações do Sistema 3P.</p></div>
+          </article>
+          <article class="card bonus-card">
+            <img src="https://blogdaeducacao.com/wp-content/uploads/2025/10/Sem-nome-2000-x-2000-px-4000-x-4000-px-1200-x-1200-px-7-1.png" alt="Bônus tabela de medidas inteligente">
+            <div class="card-body"><span class="free-tag">Grátis hoje</span><h3>Tabela de Medidas Inteligente</h3><p>Confira tamanhos e ajuste moldes conforme o corpo da cliente.</p></div>
+          </article>
+          <article class="card bonus-card">
+            <img src="https://blogdaeducacao.com/wp-content/uploads/2025/10/Sem-nome-2000-x-2000-px-4000-x-4000-px-1200-x-1200-px-8-1.png" alt="Bônus checklist costura perfeita">
+            <div class="card-body"><span class="free-tag">Grátis hoje</span><h3>Checklist Costura Perfeita</h3><p>Checklist simples para usar antes de costurar cada peça.</p></div>
+          </article>
+          <article class="card bonus-card">
+            <img src="https://blogdaeducacao.com/wp-content/uploads/2025/10/Sem-nome-2000-x-2000-px-4000-x-4000-px-1200-x-1200-px-9-1.png" alt="Bônus guia de tecidos ideais">
+            <div class="card-body"><span class="free-tag">Grátis hoje</span><h3>Guia Tecidos Ideais</h3><p>Tabela prática com tecidos indicados para cada modelo.</p></div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="oferta" class="offer">
+      <div class="wrap">
+        <div class="section-head">
+          <span class="section-kicker">Última chance</span>
+          <h2>Escolha seu acesso ao Método 3P</h2>
+          <p>O plano completo é a melhor escolha para quem quer receber os moldes e todos os bônus de aplicação.</p>
+        </div>
+        <div class="plan-grid">
+          <article class="card plan">
+            <span class="badge">Plano básico</span>
+            <h3>Pacote de Moldes 3P - Versão Essencial</h3>
+            <img class="product" src="https://blogdaeducacao.com/wp-content/uploads/2025/10/Design-sem-nome-1-1-scaled.png" alt="Plano básico dos moldes 3P">
+            <ul class="plan-list">
+              <li><span>✓</span><span>Pacote de Moldes 3P - Versão Essencial em PDF.</span></li>
+              <li><span>✓</span><span>Acesso digital imediato.</span></li>
+              <li><span>✓</span><span>Ideal para testar o método com baixo investimento.</span></li>
+            </ul>
+            <span class="price-old">de R$197,00</span>
+            <div class="price">R$19,90</div>
+            <p class="installments">pagamento seguro no cartão ou Pix</p>
+            <a class="btn dark" href="https://lastlink.com/p/C5E9D2ED7/checkout-payment/">Quero começar pelo básico</a>
+          </article>
+          <article class="card plan featured">
+            <span class="badge">Mais escolhido</span>
+            <h3>Plano Completo: moldes + todos os bônus para aplicar com mais segurança</h3>
+            <img class="product" src="https://blogdaeducacao.com/wp-content/uploads/2025/10/ACESSO-IMEDIATO-1.png" alt="Plano completo Método Corte Guiado 3P">
+            <ul class="plan-list">
+              <li><span>✓</span><span>Pacote com 200 Moldes 3P - Versão Essencial.</span></li>
+              <li><span>✓</span><span>Método impressão A4 Sem Erro.</span></li>
+              <li><span>✓</span><span>Guia Acabamento Profissional Simplificado.</span></li>
+              <li><span>✓</span><span>Como Lucrar com Uniformes.</span></li>
+              <li><span>✓</span><span>Jaleco masculino exclusivo, avental, touca e demais bônus.</span></li>
+              <li><span>✓</span><span>Você economiza R$167,10.</span></li>
+            </ul>
+            <span class="price-old">de R$197,00</span>
+            <div class="price">R$29,90</div>
+            <p class="installments">pagamento seguro no cartão ou Pix</p>
+            <a class="btn" href="https://lastlink.com/p/CD7F68731/checkout-payment/">Quero meus moldes + bônus agora</a>
+          </article>
+        </div>
+        <img class="payments" src="https://blogdaeducacao.com/wp-content/uploads/2025/10/icons-meio-de-pagamento-e1738718378460-2.png" alt="Meios de pagamento aceitos">
+      </div>
+    </section>
+
+    <section class="white">
+      <div class="wrap">
+        <div class="section-head">
+          <span class="section-kicker">Depoimentos</span>
+          <h2>Veja o que costureiras que usam os moldes estão dizendo</h2>
+        </div>
+        <div class="testimonial-grid">
+          <article class="card testimonial-card">
+            <img src="https://blogdaeducacao.com/wp-content/uploads/2025/11/330421fcbce293fa192b01f3abba0ffa.jpg" alt="Foto de Márcia Oliveira">
+            <blockquote>Fiz meu primeiro jaleco com os moldes do 3P e ficou perfeito! Agora costuro pra uma clínica inteira. Simples e rápido!</blockquote>
+            <cite>Márcia Oliveira</cite><span>Costureira - Goiânia/GO</span>
+          </article>
+          <article class="card testimonial-card">
+            <img src="https://blogdaeducacao.com/wp-content/uploads/2025/11/4d8fa239b18542afe7753d483a1f9885.jpg" alt="Foto de Tereza Andrade">
+            <blockquote>Os moldes vêm certinhos, é só imprimir e costurar. Finalmente parei de perder tecido e tempo!</blockquote>
+            <cite>Tereza Andrade</cite><span>Modelista - Salvador/BA</span>
+          </article>
+          <article class="card testimonial-card">
+            <img src="https://blogdaeducacao.com/wp-content/uploads/2025/11/fd16c47c324c1af913c11a1358029617.jpg" alt="Foto de Rosilene Pereira">
+            <blockquote>Comecei com medo, mas em duas semanas já vendi vários uniformes. O 3P mudou meu ateliê!</blockquote>
+            <cite>Rosilene Pereira</cite><span>Costureira - Campinas/SP</span>
+          </article>
+          <article class="card testimonial-card">
+            <img src="https://blogdaeducacao.com/wp-content/uploads/2025/11/42f13012ddb3b85702e50cba88db1080.jpg" alt="Foto de Arlete Santos">
+            <blockquote>Sou iniciante e consegui costurar sozinha meu primeiro jaleco! Nunca imaginei que seria tão fácil.</blockquote>
+            <cite>Arlete Santos</cite><span>Costureira - Belo Horizonte/MG</span>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="cream">
+      <div class="wrap guarantee">
+        <img src="https://blogdaeducacao.com/wp-content/uploads/2025/10/garantia.png" alt="Garantia de 14 dias">
+        <div>
+          <span class="section-kicker">Garantia de 14 dias</span>
+          <h2>Teste os moldes sem assumir o risco</h2>
+          <p>Você pode acessar, baixar, aplicar e, se sentir que não é pra você, é só pedir reembolso. Sem letras miúdas. Sem burocracia. Sua decisão é respeitada e o risco é 100% nosso.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="white">
+      <div class="wrap">
+        <div class="section-head">
+          <span class="section-kicker">FAQ</span>
+          <h2>Perguntas frequentes</h2>
+        </div>
+        <div class="faq-list">
+          <details open>
+            <summary>Tenho pouca experiência. Vou conseguir usar?</summary>
+            <p>Não. Os moldes já vêm prontos e com marcações do Sistema 3P. Você só precisa imprimir, cortar e seguir as guias indicadas.</p>
+          </details>
+          <details>
+            <summary>Quando recebo os arquivos?</summary>
+            <p>O produto é 100% digital. Após a compra, você recebe imediatamente por e-mail o link para baixar todos os arquivos em PDF.</p>
+          </details>
+          <details>
+            <summary>Preciso de impressora especial?</summary>
+            <p>Sim. Todos os moldes são compatíveis com impressora comum em papel A4, e você também pode imprimir em plotter de 84 cm se preferir.</p>
+          </details>
+          <details>
+            <summary>Posso usar os moldes para vender minhas peças?</summary>
+            <p>Sim. O material foi criado para ajudar você a costurar uniformes com mais padrão, divulgar melhor seu trabalho e transformar suas peças em renda.</p>
+          </details>
+          <details>
+            <summary>Por quanto tempo tenho acesso?</summary>
+            <p>O acesso é vitalício. Depois da compra, os arquivos ficam disponíveis para baixar quantas vezes quiser.</p>
+          </details>
+          <details>
+            <summary>E se eu não gostar?</summary>
+            <p>Você tem 14 dias de garantia incondicional. Se não ficar satisfeita, é só pedir o reembolso sem burocracia.</p>
+          </details>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="wrap">
+      <p>Copyright © 2025 | Todos os direitos reservados.</p>
+      <p>Este site não é afiliado ao Facebook ou a qualquer entidade do Facebook. A compra desse material não garante nenhum tipo de resultado. Fazemos todos os esforços para indicar claramente e mostrar provas do produto e resultados reais de alunos.</p>
+    </div>
+  </footer>
+
+  <div class="social-proof" id="social-proof" role="status" aria-live="polite" aria-atomic="true">
+    <span class="social-proof__icon">✓</span>
+    <div>
+      <strong id="social-proof-title">Depoimento de cliente</strong>
+      <p id="social-proof-text">Costureiras estão usando os moldes do Método 3P.</p>
+    </div>
+  </div>
+
+  <script>
+    const socialProofItems = [
+      {
+        title: "Márcia Oliveira usa o Método 3P",
+        text: "costurou o primeiro jaleco e passou a atender uma clínica."
+      },
+      {
+        title: "Tereza Andrade aprovou os moldes",
+        text: "disse que parou de perder tecido e tempo no corte."
+      },
+      {
+        title: "Rosilene começou com insegurança",
+        text: "e relatou que passou a vender uniformes usando o 3P."
+      },
+      {
+        title: "Arlete costurou o primeiro jaleco",
+        text: "mesmo sendo iniciante com moldes digitais."
+      },
+      {
+        title: "Costureiras estão escolhendo o 3P",
+        text: "para imprimir, alinhar e cortar com mais segurança."
+      },
+      {
+        title: "Plano completo com bônus",
+        text: "inclui moldes, guia de impressão, acabamento e precificação."
+      }
+    ];
+
+    const socialProof = document.getElementById("social-proof");
+    const socialProofTitle = document.getElementById("social-proof-title");
+    const socialProofText = document.getElementById("social-proof-text");
+    let socialProofIndex = 0;
+
+    function showSocialProof() {
+      if (!socialProof || !socialProofTitle || !socialProofText) return;
+
+      const item = socialProofItems[socialProofIndex];
+      socialProofTitle.textContent = item.title;
+      socialProofText.textContent = item.text;
+      socialProof.classList.add("is-visible");
+
+      window.setTimeout(() => {
+        socialProof.classList.remove("is-visible");
+      }, 5800);
+
+      socialProofIndex = (socialProofIndex + 1) % socialProofItems.length;
+    }
+
+    window.setTimeout(showSocialProof, 1800);
+    window.setInterval(showSocialProof, 12000);
+  </script>
+</body>
+</html>
